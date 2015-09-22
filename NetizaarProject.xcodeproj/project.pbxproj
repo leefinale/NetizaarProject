@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE60DE0A1BA7B11B00FF12C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE60DE091BA7B11B00FF12C2 /* AppDelegate.swift */; };
+		FE60DE0C1BA7B11B00FF12C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE60DE0B1BA7B11B00FF12C2 /* ViewController.swift */; };
+		FE60DE0F1BA7B11B00FF12C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE60DE0D1BA7B11B00FF12C2 /* Main.storyboard */; };
+		FE60DE111BA7B11B00FF12C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE60DE101BA7B11B00FF12C2 /* Images.xcassets */; };
+		FE60DE141BA7B11B00FF12C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE60DE121BA7B11B00FF12C2 /* LaunchScreen.xib */; };
+		FE60DE201BA7B11B00FF12C2 /* NetizaarProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE60DE1F1BA7B11B00FF12C2 /* NetizaarProjectTests.swift */; };
+		FE60DE2A1BA7BE3D00FF12C2 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE60DE291BA7BE3D00FF12C2 /* SwiftyJSON.swift */; };
+		FE60DE2E1BA91F2A00FF12C2 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE60DE2D1BA91F2A00FF12C2 /* ImageCollectionViewCell.swift */; };
+		FE7BD87B1BA9299B00EC4405 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7BD87A1BA9299B00EC4405 /* CloudKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE60DE1A1BA7B11B00FF12C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE60DDFC1BA7B11B00FF12C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE60DE031BA7B11B00FF12C2;
+			remoteInfo = NetizaarProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE60DE041BA7B11B00FF12C2 /* NetizaarProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetizaarProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE60DE081BA7B11B00FF12C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE60DE091BA7B11B00FF12C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE60DE0B1BA7B11B00FF12C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE60DE0E1BA7B11B00FF12C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE60DE101BA7B11B00FF12C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FE60DE131BA7B11B00FF12C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FE60DE191BA7B11B00FF12C2 /* NetizaarProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetizaarProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE60DE1E1BA7B11B00FF12C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE60DE1F1BA7B11B00FF12C2 /* NetizaarProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetizaarProjectTests.swift; sourceTree = "<group>"; };
+		FE60DE291BA7BE3D00FF12C2 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		FE60DE2D1BA91F2A00FF12C2 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		FE7BD8791BA9269200EC4405 /* NetizaarProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NetizaarProject.entitlements; sourceTree = "<group>"; };
+		FE7BD87A1BA9299B00EC4405 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE60DE011BA7B11B00FF12C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7BD87B1BA9299B00EC4405 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE60DE161BA7B11B00FF12C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE60DDFB1BA7B11B00FF12C2 = {
+			isa = PBXGroup;
+			children = (
+				FE7BD87A1BA9299B00EC4405 /* CloudKit.framework */,
+				FE60DE061BA7B11B00FF12C2 /* NetizaarProject */,
+				FE60DE1C1BA7B11B00FF12C2 /* NetizaarProjectTests */,
+				FE60DE051BA7B11B00FF12C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE60DE051BA7B11B00FF12C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE60DE041BA7B11B00FF12C2 /* NetizaarProject.app */,
+				FE60DE191BA7B11B00FF12C2 /* NetizaarProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE60DE061BA7B11B00FF12C2 /* NetizaarProject */ = {
+			isa = PBXGroup;
+			children = (
+				FE7BD8791BA9269200EC4405 /* NetizaarProject.entitlements */,
+				FE60DE091BA7B11B00FF12C2 /* AppDelegate.swift */,
+				FE60DE0B1BA7B11B00FF12C2 /* ViewController.swift */,
+				FE60DE2D1BA91F2A00FF12C2 /* ImageCollectionViewCell.swift */,
+				FE60DE0D1BA7B11B00FF12C2 /* Main.storyboard */,
+				FE60DE291BA7BE3D00FF12C2 /* SwiftyJSON.swift */,
+				FE60DE101BA7B11B00FF12C2 /* Images.xcassets */,
+				FE60DE121BA7B11B00FF12C2 /* LaunchScreen.xib */,
+				FE60DE071BA7B11B00FF12C2 /* Supporting Files */,
+			);
+			path = NetizaarProject;
+			sourceTree = "<group>";
+		};
+		FE60DE071BA7B11B00FF12C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE60DE081BA7B11B00FF12C2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE60DE1C1BA7B11B00FF12C2 /* NetizaarProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE60DE1F1BA7B11B00FF12C2 /* NetizaarProjectTests.swift */,
+				FE60DE1D1BA7B11B00FF12C2 /* Supporting Files */,
+			);
+			path = NetizaarProjectTests;
+			sourceTree = "<group>";
+		};
+		FE60DE1D1BA7B11B00FF12C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE60DE1E1BA7B11B00FF12C2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE60DE031BA7B11B00FF12C2 /* NetizaarProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE60DE231BA7B11B00FF12C2 /* Build configuration list for PBXNativeTarget "NetizaarProject" */;
+			buildPhases = (
+				FE60DE001BA7B11B00FF12C2 /* Sources */,
+				FE60DE011BA7B11B00FF12C2 /* Frameworks */,
+				FE60DE021BA7B11B00FF12C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetizaarProject;
+			productName = NetizaarProject;
+			productReference = FE60DE041BA7B11B00FF12C2 /* NetizaarProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE60DE181BA7B11B00FF12C2 /* NetizaarProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE60DE261BA7B11B00FF12C2 /* Build configuration list for PBXNativeTarget "NetizaarProjectTests" */;
+			buildPhases = (
+				FE60DE151BA7B11B00FF12C2 /* Sources */,
+				FE60DE161BA7B11B00FF12C2 /* Frameworks */,
+				FE60DE171BA7B11B00FF12C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE60DE1B1BA7B11B00FF12C2 /* PBXTargetDependency */,
+			);
+			name = NetizaarProjectTests;
+			productName = NetizaarProjectTests;
+			productReference = FE60DE191BA7B11B00FF12C2 /* NetizaarProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE60DDFC1BA7B11B00FF12C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Elex Lee";
+				TargetAttributes = {
+					FE60DE031BA7B11B00FF12C2 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = NU4Z69HCZ2;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					FE60DE181BA7B11B00FF12C2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FE60DE031BA7B11B00FF12C2;
+					};
+				};
+			};
+			buildConfigurationList = FE60DDFF1BA7B11B00FF12C2 /* Build configuration list for PBXProject "NetizaarProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE60DDFB1BA7B11B00FF12C2;
+			productRefGroup = FE60DE051BA7B11B00FF12C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE60DE031BA7B11B00FF12C2 /* NetizaarProject */,
+				FE60DE181BA7B11B00FF12C2 /* NetizaarProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE60DE021BA7B11B00FF12C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE60DE0F1BA7B11B00FF12C2 /* Main.storyboard in Resources */,
+				FE60DE141BA7B11B00FF12C2 /* LaunchScreen.xib in Resources */,
+				FE60DE111BA7B11B00FF12C2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE60DE171BA7B11B00FF12C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE60DE001BA7B11B00FF12C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE60DE2A1BA7BE3D00FF12C2 /* SwiftyJSON.swift in Sources */,
+				FE60DE0C1BA7B11B00FF12C2 /* ViewController.swift in Sources */,
+				FE60DE2E1BA91F2A00FF12C2 /* ImageCollectionViewCell.swift in Sources */,
+				FE60DE0A1BA7B11B00FF12C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE60DE151BA7B11B00FF12C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE60DE201BA7B11B00FF12C2 /* NetizaarProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE60DE1B1BA7B11B00FF12C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE60DE031BA7B11B00FF12C2 /* NetizaarProject */;
+			targetProxy = FE60DE1A1BA7B11B00FF12C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE60DE0D1BA7B11B00FF12C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE60DE0E1BA7B11B00FF12C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE60DE121BA7B11B00FF12C2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE60DE131BA7B11B00FF12C2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE60DE211BA7B11B00FF12C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE60DE221BA7B11B00FF12C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE60DE241BA7B11B00FF12C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NetizaarProject/NetizaarProject.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NetizaarProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elexlee.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FE60DE251BA7B11B00FF12C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NetizaarProject/NetizaarProject.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NetizaarProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elexlee.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		FE60DE271BA7B11B00FF12C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NetizaarProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elexlee.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetizaarProject.app/NetizaarProject";
+			};
+			name = Debug;
+		};
+		FE60DE281BA7B11B00FF12C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetizaarProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elexlee.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetizaarProject.app/NetizaarProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE60DDFF1BA7B11B00FF12C2 /* Build configuration list for PBXProject "NetizaarProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE60DE211BA7B11B00FF12C2 /* Debug */,
+				FE60DE221BA7B11B00FF12C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE60DE231BA7B11B00FF12C2 /* Build configuration list for PBXNativeTarget "NetizaarProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE60DE241BA7B11B00FF12C2 /* Debug */,
+				FE60DE251BA7B11B00FF12C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE60DE261BA7B11B00FF12C2 /* Build configuration list for PBXNativeTarget "NetizaarProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE60DE271BA7B11B00FF12C2 /* Debug */,
+				FE60DE281BA7B11B00FF12C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE60DDFC1BA7B11B00FF12C2 /* Project object */;
+}
